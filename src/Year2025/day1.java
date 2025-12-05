@@ -6,7 +6,7 @@ import java.util.*;
 public class day1 {
     public static void main(String[] args) throws IOException {
         List<String> lines = new ArrayList<>();
-        try (BufferedReader br = new BufferedReader(new FileReader("src/Year2025/day1.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("src/Year2025/txt/txt/day1.txt"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 if (!line.trim().isEmpty()) {

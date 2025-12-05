@@ -6,7 +6,7 @@ import java.util.*;
 public class day2 {
     public static void main(String[] args) throws IOException {
         String input;
-        try (BufferedReader br = new BufferedReader(new FileReader("src/Year2025/day2.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("src/Year2025/txt/txt/day2.txt"))) {
             input = br.readLine().trim();
         }
 
